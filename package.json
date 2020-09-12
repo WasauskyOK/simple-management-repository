@@ -1,6 +1,6 @@
 {
   "name": "list-public-repositories",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Este modulo listara y clonara (uno o varios)  repositorios publicos de cualquier usuario de github",
   "main": "dist/index.js",
   "bin": {

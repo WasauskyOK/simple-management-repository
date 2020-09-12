@@ -1,27 +1,32 @@
-#  Template es6 node
+# list public repositories
 
-Este modulo simplicara la creacion y configuracion de un proyecto con node y ES6
-  
+Este modulo listara y clonara (uno o varios) repositorios publicos de cualquier usuario en github .
+
 ## Pre requisitos
-Se requiere conexión a internet  y tener cualquier distribucion de linux instalado
+
+- Se requiere conexión a internet y tener cualquier distribucion de linux instalado.
+- Tener generado llave ssh y configurar llave publica en github. (`clone with ssh`)
 
 ## Instalación
-Este modulo necesita ser instalado globalmente , **no localmente**, para su funcionamiento correcto .
+
+Este modulo necesita ser instalado globalmente , `no localmente`, para su funcionamiento correcto .
 
 Para instalar este modulo, necesitas ejecutar el siguiente comando en su terminal:
 
-```console    
-    npm i template-es6-node -g
+```console
+    npm i list-public-repositories -g
 ```
 
 ## Uso
-Ejecuta desde tu terminal el siguiente comando  :
-    
-    ten
+
+Ejecuta desde tu terminal el siguiente comando :
+
+    misrepos
 
 ## Autor
-*   Daniel Choquecahuana [portafolio](choquesaurus.com)
+
+- Daniel Choquecahuana [Mi portafolio](choquesaurus.com)
+
 ## Licencia
 
 MIT
-
