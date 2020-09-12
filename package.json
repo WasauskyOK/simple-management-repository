@@ -1,0 +1,38 @@
+{
+  "name": "list-public-repositories",
+  "version": "1.0.0",
+  "description": "Este modulo listara y clonara (uno o varios)  repositorios publicos de cualquier usuario de github",
+  "main": "dist/index.js",
+  "bin": {
+    "misrepos": "dist/index.js"
+  },
+  "scripts": {
+    "prepare": "npm run build",
+    "build": "babel src -d dist",
+    "start": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/choquesaurus/list-public-repositories.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/choquesaurus/list-public-repositories/issues"
+  },
+  "homepage": "https://github.com/choquesaurus/list-public-repositories#readme",
+  "dependencies": {
+    "@babel/cli": "^7.11.6",
+    "@babel/core": "^7.11.6",
+    "@babel/polyfill": "^7.11.5",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/register": "^7.11.5",
+    "inquirer": "^7.3.3",
+    "node-fetch": "^2.6.1",
+    "promisify-child-process": "^4.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
